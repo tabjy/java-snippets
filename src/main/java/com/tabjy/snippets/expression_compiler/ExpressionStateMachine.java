@@ -1,7 +1,6 @@
 package com.tabjy.snippets.expression_compiler;
 
-import com.sun.tools.corba.se.idl.constExpr.Expression;
-import org.eclipse.jdt.internal.compiler.ast.FieldReference;
+import org.openjdk.jmc.agent.util.expression.ReferenceChainElement;
 
 import java.util.List;
 
@@ -48,7 +47,7 @@ public class ExpressionStateMachine {
         this.expression = expression;
     }
     
-    private List<FieldReference> solve() {
+    private List<ReferenceChainElement.FieldReference> solve() {
         return null;
     }
 }
